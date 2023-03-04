@@ -1,0 +1,14 @@
+@mixin flex () {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin transition {
+  transition: all .3s;
+}
+
+@mixin container {
+  max-width: 1280px;
+  margin: 0 auto;
+}

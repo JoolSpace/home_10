@@ -4,10 +4,367 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
   <link rel="stylesheet" href="styles/main.css">
-  <title>Document</title>
+  <title>Photomarket</title>
 </head>
 <body>
   
+  <header class="header">
+    <nav class="navbar container">
+      <div class="navbar__contacts-1">
+        
+        <select class="navbar__select">
+          <option value="Минск">Минск</option>
+          <option value="Брест">Брест</option>
+          <option value="Витебск">Витебск</option>
+          <option value="Гомель">Гомель</option>
+          <option value="Гродно">Гродно</option>
+          <option value="Могилев">Могилев</option>
+        </select>
+        
+        <ul class="navbar__lists-1">
+          <li class="navbar__list-1">+375 (29) 7072788</li>
+          <li class="navbar__list-1">+375 (33) 7072788</li>
+        </ul>
+    
+
+      <ul class="navbar__lists-2">
+        <li class="navbar__list-2">
+          <a class="navbar__link" href="#">Фотомагазин</a>
+        </li>
+        <li class="navbar__list-2">
+          <a class="navbar__link" href="#">Доставка и оплата</a>
+        </li>
+        <li class="navbar__list-2">
+          <a class="navbar__link" href="#">Трейд-ин</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="navbar__contacts-2">
+    <button class="novbar__btn">
+      Категории
+    </button>
+
+    <div class="navbar__text">Photomarket</div>
+    
+    <input class="navbar__search type="text" name=text" placeholder = "Я ищу...">
+
+      <ul class="navbar__lists-3">
+        <li class="navbar__list-3">
+          <a class="navbar__link-3" href="#">
+            <img src="img/icons/map.png" alt="">
+            <p class="navbar__title">Войти</p>
+          </a>
+        </li>
+
+        <li class="navbar__list-3">
+          <a class="navbar__link-3" href="#">
+            <img src="img/icons/user.png" alt="">
+            <p class="navbar__title">Корзина</p>
+          </a>
+        </li>
+
+        <li class="navbar__list-3">
+          <a class="navbar__link-3" href="#">
+            <img src="img/icons/shopping.png" alt="">
+            <p class="navbar__title">Адрес</p>
+          </a>
+        </li>
+      </ul>
+  </div>
+</nav>
+</header>
+
+  <main class="main container" >
+   <section class="slider">
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="banner">
+            <h1 class="banner__title">Шедевры в деталях вместе с Nikon Z7II</h1>
+            <h3 class="banner__subtitle">Представляем совершенно новую фотокамеру Z 7II.</h3>
+            <button class="banner__btn">Узнать больше</button>
+            </div>
+          </div>
+        </div>
+      <div class="swiper-button-prev">
+        <img src="img/icons/left.png" alt="">
+      </div>
+      <div class="swiper-button-next">
+        <img src="img/icons/right.png" alt="">
+      </div> 
+      <div class="swiper-scrollbar"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="block">
+    <ul class="block-lists">
+      <li class="block-list">
+        <div class="block-description">
+          <p class="block-description__text1">Canon EOS 5D <br>
+            Mark IV Body</p>
+          <p class="block-description__text2">4 240р</p>
+        </div>
+        <img src="img/3.png" alt="">
+        <img class="block-img" src="img/Frame 134.png" alt="">
+      </li>
+      <li class="block-list">
+        <div class="block-description">
+          <p class="block-description__text1">Canon EOS <br>
+            M200 Kit</p>
+          <p class="block-description__text2">1 100р</p>
+        </div>
+        <img src="img/1.png" alt="">
+        <img class="block-img" src="img/Frame 144.png" alt="">
+      </li>
+      <li class="block-list">
+        <div class="block-description">
+          <p class="block-description__text1">Nikon 85mm <br>
+            f/1.4G AF-S Nikkor</p>
+          <p class="block-description__text2">4 240р</p>
+                  </div>
+        <img src="img/2.png" alt="">
+        <img class="block-img" src="img/Frame 134.png" alt="">
+      </li>
+    </ul>
+  </div>
+  </section>
+
+  <sections class="hits">
+    <h2 class="hits-title">Хиты продаж</h2>
+
+    <ul class="hits__lists">
+      <li class="hits__list">
+        <img src="img/hit (2).png" width="100%" alt="">
+        <p class="text3">4 240 р <span>5 400 р</span> </p>
+        <p class="text4">Canon EOS 5D Mark IV Body</p>
+      </li>
+      <li class="hits__list">
+        <img src="img/hit (1).png" width="100%" alt="">
+        <p class="text3">4 240 р <span>5 400 р</span> </p>
+        <p class="text4">Объектив Canon EF 50mm 
+          f/1.2L USM</p>
+      </li>
+      <li class="hits__list">
+        <img src="img/hit (2).png" width="100%" alt="">
+        <p class="text3">4 240 р <span>5 400 р</span> </p>
+        <p class="text4">Fujifilm x-519 Body</p>
+      </li>
+      <li class="hits__list">
+        <img src="img/hit (4).png" width="100%" alt="">
+        <p class="text3">4 240 р <span>5 400 р</span> </p>
+        <p class="text4">FST LS-210 Стойка </p>
+      </li>
+      <li class="hits__list">
+        <img src="img/hit (5).png" width="100%" alt="">
+        <p class="text3">4 240 р <span>5 400 р</span> </p>
+        <p class="text4">Сумка Lowepro Apex 140 AW
+        </p>
+      </li>
+    </ul>
+    <ul class="hits__lists">
+      <li class="hits__list">
+        <img src="img/hit (11).png" width="100%" alt="">
+        <p class="text3">4 240 р <span>5 400 р</span> </p>
+        <p class="text4">Canon PowerShot G7 X Mark II</p>
+      </li>
+      <li class="hits__list">
+        <img src="img/hit (6).png" width="100%" alt="">
+        <p class="text3">4 240 р <span>5 400 р</span> </p>
+        <p class="text4">Стабилизатор DJI RS 2</p>
+      </li>
+      <li class="hits__list">
+        <img src="img/hit (7).png" width="100%" alt="">
+        <p class="text3">4 240 р <span>5 400 р</span> </p>
+        <p class="text4">Canon Speedlite EL-100</p>
+      </li>
+      <li class="hits__list">
+        <img src="img/hit (8).png" width="100%" alt="">
+        <p class="text3">4 240 р <span>5 400 р</span> </p>
+        <p class="text4">Источник света Profoto
+          C1 Plus для смартфона</p>
+      </li>
+      <li class="hits__list">
+        <img src="img/hit (9).png" width="100%" alt="">
+        <p class="text3">4 240 р <span>5 400 р</span> </p>
+        <p class="text4">Объектив Fujifilm XF 80mm 
+          f/2.8 R LM OIS WR Macro</p>
+      </li>
+    </ul>
+
+    <button class="hits__btn">
+      Показать ещё
+    </button>
+  </sections>
+
+  <section class="logo">
+          <div class="logo-img">
+          <img src="img/icons/Vector.png" alt="">
+        </div>
+        <div class="logo-img">
+          <img src="img/icons/Canon.png" alt="">
+        </div>
+          <div class="logo-img">
+          <img src="img/icons/Nikon.png" alt="">
+          </div>
+          <div class="logo-img">
+          <img src="img/icons/Vector-2.png" alt="">
+        </div>
+          <div class="logo-img">
+          <img src="img/icons/pentax.png" alt="">
+        </div>
+  </section>
+
+  <section class="review">
+    <h2 class="hits-title">Обзоры</h2>
+
+    <ul class="review__lists">
+      <li class="review__list">
+      <img class="review__img" src="img/image 45.png" alt="">
+      <p class="review__descr" >Nikon Z6 II — большой обзор беззеркальной
+        фотокамеры</p>
+      </li>
+      <li class="review__list"><img class="review__img" src="img/image 45-1.png" alt="">
+      <p class="review__descr">Zhiyun Crane 2S — новая легенда или незначительное обновление?</p></li>
+      <li class="review__list"><img class="review__img" src="img/image 45-2.png" alt="">
+        <p class="review__descr">6 лучших объективов Canon RF для видеосъемки</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="instagram">
+    <h2 class="hits-title">Ищите нас в инстаграмм</h2>
+
+    <ul class="instagram__lists">
+      <li class="instagram__list">
+        <img src="img/Frame 49.png" alt="">
+      </li>
+      <li class="instagram__list">
+        <img src="img/Regalos-que-pediría-a-los-Reyes-Magos-9 1.png" alt="">
+      </li>
+      <li class="instagram__list">
+        <img src="img/Frame 51.png" alt="">
+      </li>
+      <li class="instagram__list">
+        <img src="img/Frame 52.png" alt="">
+      </li>
+      <li class="instagram__list">
+        <img src="img/Frame 53.png" alt="">
+      </li>
+    </ul>
+  </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-block container">
+      <ul class="footer-block__lists">
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">фотоаппараты</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">объективы</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">студийный свет</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">аксессуары</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">вспышки</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">сумки</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">печать</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">гаджеты</a>
+        </li>
+      </ul>
+      <ul class="footer-block__lists">
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">фотомагазин</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">фотопрокат</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">трейд-ин</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">доставка</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">как купить?</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">способы оплаты</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">гарантия и возврат</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">сертификаты</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">скидки</a>
+        </li>
+      </ul>
+      <ul class="footer-block__lists">
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">о компании</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">новости</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">акции</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">обзоры</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">контакты</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">вакансии</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">партнеры</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">отзывы</a>
+        </li>
+        <li class="footer-block__list">
+          <a href="#" class="footer-block__link">карта сайта</a>
+        </li>
+      </ul>
+
+      <div class="contacts">
+        <p class="contacts-block">контактная информация <br><br>
+          +375(29)1001010 <br><br>
+          г.Минск ул. Победителей д 3 пом 41 <br><br>
+          fotomagaz@gmail.com</p>
+          <br><br>
+          <p>способы оплаты</p>
+          <img src="img/Group 15.png" alt="">
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script type="module" src="js/swiper.js"></script>
 </body>
 </html>

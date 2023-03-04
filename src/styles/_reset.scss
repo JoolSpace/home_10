@@ -1,0 +1,10 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input, textarea {
+  outline: none;
+  border: none;
+}

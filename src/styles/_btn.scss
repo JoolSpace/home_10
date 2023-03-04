@@ -1,0 +1,30 @@
+.novbar__btn {
+  width: 148px;
+  height: 46px;
+  border-radius: 8px;
+  font-weight: $font-w-500;
+  font-size: $font-18;
+  color: $primary-color;
+  cursor: pointer;
+  font-family: $font-family;
+
+  background-color: $color-orange;
+}
+
+.hits__btn {
+  display: block;
+  text-align: center;
+  width: 220px;
+  height: 46px;
+  background-color: $color-gray--light;
+  margin-top: 32px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: none;
+  border-radius: 28px;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
